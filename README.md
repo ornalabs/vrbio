@@ -34,6 +34,7 @@ Valid values: **none, default, contact, egypt, checkerboard, forest, goaland, ya
 
 
 ## How to add a 3d model 
+create an asserts and place an id with the source link and call this 3d model in an entity tag using the id.
 
 `<a-assets><a-assert-items id="astronaut" src="https://cdn.glitch.global/c28ea069-932a-426b-a130-fa32ae317c8b/scene-v1.glb?v=1645111464302">
  </a-assert-items></a-assets>`
