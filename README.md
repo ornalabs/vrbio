@@ -3,7 +3,8 @@ Personal Bio resume / portfolio site in WebXR using aframe.
 # Aframe
 **A-frame is a web framework for building virtual reality (VR) experiences. A-Frame is based on top of HTML, making it simple to get started.A-Frame can be developed from a plain HTML file without having to install anything. .html file and include A-Frame in the <head>:**
 
-`<html>
+```
+  <html>
   <head>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
   </head>
@@ -16,7 +17,8 @@ Personal Bio resume / portfolio site in WebXR using aframe.
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
   </body>
-</html>`
+</html>
+```
 
 ## Adding the Following code into your head
 `  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>`
