@@ -18,6 +18,32 @@ Personal Bio resume / portfolio site in WebXR using aframe.
   </body>
 </html>`
 
+## Adding the Following code into your head
+`  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>`
+## Adding an Entity 
+`<a-entity>
+</a-entity>`
+
 ## How to Create an Environment 
 
 `<a-entity environment="preset:default;"></a-entity>`
+
+Here are the other names you can use to replace the word default that you just copied.
+Valid values: **none, default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris**
+
+
+
+## How to add a 3d model 
+
+`<a-assets><a-assert-items id="astronaut" src="https://cdn.glitch.global/c28ea069-932a-426b-a130-fa32ae317c8b/scene-v1.glb?v=1645111464302">
+ </a-assert-items></a-assets>`
+
+ `  <a-entity  gltf-model="#astronaut">
+      </a-entity>`
+
+      
+
+
+
+
+      
