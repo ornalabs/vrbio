@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<!-- include A-Frame obviously -->
+<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+
+    <a-scene>
+        <!-- create your content here. just a box for now -->
+        <a-text value="Hello, I am Roncho"></a-text>
+        <a-assets>
+            <a-asset-item id="roncho" crossOrigin="anonymous" src="https://cdn.glitch.me/c460888c-f174-41bb-a903-2fd50fe6de6e/weapon_rifle.glb"></a-asset-item>
+        </a-assets>
+        <!-- use your gltf model -->
+
+
+        <a-entity scale="3 3 3" animation-mixer="clip: CHILL" rotation="1 1 1" gltf-model="#tree" position='0 0.5 -10'></a-entity>
+
+    </a-scene>
+</body>
+
+</html>
